@@ -12,5 +12,5 @@ jobs:
         version: latest
 
     - name: Run OPA Tests
-      run: opa test opa/cost/*.rego -v
+      run: opa test opa/aws/*.rego -v
    
